@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body {
+
+    background: linear-gradient(120deg, rgb(164, 136, 97)); 
+    
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 10%;
+
+}
+h1 {
+
+    color: white;
+
+}
+
+button {
+
+    height: 2.5em ;
+    width: 20em ;
+    border:none ;
+    color: black ;
+
+}
+button:hover {
+
+    cursor:pointer;
+
+}
+
+.quiz {
+
+width: 27em;
+height: 25em;
+background-color:gray;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+font-style: 'Rubik Bubbles', cursive;
+}
