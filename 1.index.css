@@ -1,6 +1,22 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
+
+
+.start-btn{
+
+   
+   color: rgb(15, 15, 15);
+
+   border-radius: 7px;
+
+   font-size: 16px;
+}
+
 body {
+
+  background-color: black;
+
 
     background: linear-gradient(120deg, rgb(164, 136, 97)); 
     
@@ -10,23 +26,31 @@ body {
     margin-top: 10%;
 
 }
+#user{
+  color: white;
+}
 h1 {
 
-    color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+
+    color: white;
 }
 
 button {
+
 
     height: 2.5em ;
     width: 20em ;
     border:none ;
     color: black ;
+    margin-top: 10%;
 
 }
 button:hover {
 
-    cursor:pointer;
+  background: rgb(143, 143, 143);
+  cursor:pointer;
 
 }
 
@@ -34,7 +58,7 @@ button:hover {
 
 width: 27em;
 height: 25em;
-background-color:gray;
+background-color: black;
 
 display: flex;
 align-items: center;
@@ -42,4 +66,6 @@ flex-direction: column;
 justify-content: center;
 
 font-style: 'Rubik Bubbles', cursive;
+
+
 }

@@ -7,63 +7,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="2.quiz.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
-
-
 <body>
-<!--<div calass="true alert" >
-<p>Resposta Certa</p>
-</div>
-<div>
-<div class="false alert">
-  <p>Resposta Errada</p>
-  </div>
-  > -->
-  
-    <h1 id="wacth">00:00:00</h1>
 
-  <div class="questao">
-    <div class="pgt"></div><label id="enunciado"> ...</label>
-  
+  <div id="placar"> Seus pontos <br><span id="numero">00<br></span> </div>
+  <main>
+  <h1 id="wacth">00:00:00</h1>
+
+  <div class="content">
+
+    <div clas="questao">
+ <label id="enunciado"> ...</label>
+  </div>
+  <div class="alternativa">
   <div class="wrapper">
     <div class="form-group">
       <input class="radio" name="theradio" id="imput-ra" type='radio' />
       <label for="RA" id="ra">...</label>
     </div>
   </div>
- 
+
   <div class="wrapper">
     <div class="form-group">
       <input class="radio" name="theradio" id="imput-rb" type='radio' />
       <label for="RB" id="rb">...</label>
     </div>
   </div>
+
   <div class="wrapper">
     <div class="form-group">
       <input class="radio" name="theradio" id="imput-rc" type='radio' />
       <label for="RC" id="rc">...</label>
     </div>
   </div>
+
   <div class="wrapper">
     <div class="form-group">
       <input class="radio" name="theradio" id="imput-rd" type='radio' />
       <label for="RD" id="rd">...</label>
     </div>
   </div>
-  
-  <button id="confirmar" value="1" onclick="confirmar()">Confirmar</button>
-
+</div>
+  <div class="butao">  
+    <button id="confirmar" value="1" onclick="confirmar()">Confirmar</button>
   </div>
   
-
+</div>
+</main>
 
   <script src="2.pergunta.js"></script>
-  <script>
 
-  </script>
 </body>
 
 </html>
