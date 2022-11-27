@@ -1,6 +1,5 @@
 var sec = 0
 var min = 0
-var hr = 0
 var interval
 var score = 00
 
@@ -37,13 +36,10 @@ function wacth() {
     if (sec == 60) {
         min++
         sec = 0
-        if (min == 60) {
-            min = 0
-            hr++
-        }
+
     }
 
-    document.getElementById("wacth").innerText = twoDigital(hr) + ":" + twoDigital(min) + ":" + twoDigital(sec)
+    document.getElementById("wacth").innerText = twoDigital(min) + ":" + twoDigital(sec)
 
 }
 //a parte logica do relogio termina aqui
