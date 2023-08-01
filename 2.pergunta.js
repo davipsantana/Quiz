@@ -29,8 +29,6 @@ function stp() {
 
 }
 
-
-
 function wacth() {
     sec++
     if (sec == 60) {
@@ -161,16 +159,19 @@ function confirmar() {
     indice = indice + 1;
     // o uso [] serve para referencia uma posição do arrray
     let pergunta = perguntas[indice];
+    if(pergunta){
+        
+        document.getElementById("enunciado").innerHTML = pergunta.enunciado;
+        document.getElementById("ra").innerText = pergunta.ra;
+        document.getElementById("imput-ra").value = pergunta.ra;
+        document.getElementById("rb").innerText = pergunta.rb;
+        document.getElementById("imput-rb").value = pergunta.rb;
+        document.getElementById("rc").innerText = pergunta.rc;
+        document.getElementById("imput-rc").value = pergunta.rc;
+        document.getElementById("rd").innerText = pergunta.rd;
+        document.getElementById("imput-rd").value = pergunta.rd;
+        document.getElementById("confirmar").value = pergunta.numero;
+    }
 
-    document.getElementById("enunciado").innerHTML = pergunta.enunciado;
-    document.getElementById("ra").innerText = pergunta.ra;
-    document.getElementById("imput-ra").value = pergunta.ra;
-    document.getElementById("rb").innerText = pergunta.rb;
-    document.getElementById("imput-rb").value = pergunta.rb;
-    document.getElementById("rc").innerText = pergunta.rc;
-    document.getElementById("imput-rc").value = pergunta.rc;
-    document.getElementById("rd").innerText = pergunta.rd;
-    document.getElementById("imput-rd").value = pergunta.rd;
-    document.getElementById("confirmar").value = pergunta.numero;
 
 }
